@@ -40,6 +40,46 @@ undefined => NaN
 
 */
 
+// :::::::::::::::::::::::::::::::::Operations::::::::::::::::::::::::::::::::::::::::::
+
+let a = 3
+let b = 4
+let c = a + b
+// console.log("c",c)
+
+// console.log("2" + 2 + 2)   //222  inlcude all string
+// console.log(2 + 2 + "2")  // 42   first calculate value and add string
+// console.log(2 + "2" + 2)  // 222
+
+let x = 3
+let y = ++x
+// console.log(y)   //4  for prefix
+
+let m = 5
+let d = m++
+// console.log(d)
+
+let w = 4
+let r = w++ + 2
+// console.log(r)
+// console.log(w);
+
+let y1 = 3
+let y2 = y1++
+// console.log(`y1:${y1},y2:${y2}`)
+
+
+let x1 =2   
+let q = ++x1
+  // prefix use for  output is x1=3 and q = 3
+console.log("x1 value:",x1 ,"q value:",q)
+
+let a1 = 4
+let a2 = a1++    //postfix use for  output a1 = 4 and a2 = 5
+console.log("a1 value:",a1 ,"a2 value:",a2)
+
+
+
 
 
 
